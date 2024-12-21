@@ -1,49 +1,49 @@
-# 2024 C++�ҵ{�޲z�t��
+# 2024 C++課程管理系統
 ## ver 1
-**�{���]�p�d��**
-- �s�WPerson���O
-- �m�ߨϥ�Visual Studio
-- �m�ߨϥ�debug
-- �m��git���\��Gcommit, push
-- .h�ɮ׻P.cpp�ɮת��γ~
-- ��k�Ѽƪ��ǻ��覡�Gcall by value, call by reference
-- ��l�ѼƦC��(initializer list)���ϥ�
-- �F�����O���������s���v��: public, private, protected
-- �F�����O���غc�l�P�Ѻc�l
-- �F�ѦP�W����(polymorphism)������
+**程式設計範例**
+- 新增Person類別
+- 練習使用Visual Studio
+- 練習使用debug
+- 練習git的功能：commit, push
+- .h檔案與.cpp檔案的用途
+- 方法參數的傳遞方式：call by value, call by reference
+- 初始參數列表(initializer list)的使用
+- 了解類別內成員的存取權限: public, private, protected
+- 了解類別的建構子與解構子
+- 了解同名異式(polymorphism)的概念
 
 ## ver 2
-- �s�W�l�ͦ�Person��Student���O
-- �s�W�C�|�C�OClassName, Department
-- �Ƿ|�ϥ�Visual Studio�������\��
-- �Ƿ|�ϥ�git������(branch)�\��
-- �Ƿ|���O���~���[��
+- 新增衍生自Person的Student類別
+- 新增列舉列別ClassName, Department
+- 學會使用Visual Studio的除錯功能
+- 學會使用git的分支(branch)功能
+- 學會類別的繼承觀念
 
 ## ver 3
-- �s�WREADME.md�������
-- �s�WCourse���O
-- �s�W�~�Ӧ�Person��Teacher���O
-- �ϥ�*vector*�e���x�s����ӰO���Юv�ұ½Ҫ��ҵ{
-- �ܼƭ��s�R�W(rename)�A�{���X���c(refactoring)
+- 新增README.md說明文件
+- 新增Course類別
+- 新增繼承自Person的Teacher類別
+- 使用*vector*容器儲存物件來記錄教師所授課的課程
+- 變數重新命名(rename)，程式碼重構(refactoring)
 
 ## ver 4
-- �s�W��Ҭ���Record���O
-- �A�����O���R�A����(static member)������
-- �ϥ�time_t���O�O����Үɶ�
-- �A��auto����r���ϥ�
-- �A��C++ foreach�j�骺�ϥ�
-- �A��vector�e����push_back()�Msize()��k���N�q
-- �ϥ�do-while�j��
-- �ϥ�switch-case�ԭz
+- 新增選課紀錄Record類別
+- 瞭解類別的靜態成員(static member)的概念
+- 使用time_t型別記錄選課時間
+- 瞭解auto關鍵字的使用
+- 瞭解C++ foreach迴圈的使用
+- 瞭解vector容器的push_back()和size()方法的意義
+- 使用do-while迴圈
+- 使用switch-case敘述
 
 ## ver 5
-- �ϥ�system���O
-- �F�ѵ{���sĶ�P�s�����L�{�A�H�Ψ�Ҳ��ͪ����~�T��
-- �ϥ�C++��foreach�j��
-- �F��static_cast���Ϊk
-- �s�W�H�U�\��G
+- 使用system指令
+- 了解程式編譯與連結的過程，以及其所產生的錯誤訊息
+- 使用C++的foreach迴圈
+- 了解static_cast的用法
+- 新增以下功能：
 
-1. �s�W�ǥ͸��
-1. �s�W�Юv���
-1. �s�W�ҵ{���
-1. �s�W��Ҭ���
+> 1. 新增學生資料
+> 2. 新增教師資料
+> 3. 新增課程資料
+> 4. 新增選課紀錄
