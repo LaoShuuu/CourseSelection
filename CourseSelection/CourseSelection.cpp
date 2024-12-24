@@ -72,6 +72,9 @@ void displayMenu() {
 		cout << "7. 查詢教師資料" << endl;
 		cout << "8. 查詢選課紀錄" << endl;
 		cout << "9. 新增學生資料" << endl;
+		cout << "10. 新增課程資料" << endl;
+		cout << "11. 新增教師資料" << endl;
+		cout << "12. 新增選課紀錄" << endl;
 		cout << "0. 退出" << endl;
 		cout << "請選擇操作: ";
 		cin >> choice;
@@ -103,17 +106,17 @@ void displayMenu() {
 			break;
 		case 6:
 			cout << "查詢課程資料" << endl;
-			//queryCourse();
+			queryCourse();
 			system("pause");
 			break;
 		case 7:
 			cout << "查詢教師資料" << endl;
-			//queryTeacher();
+			queryTeacher();
 			system("pause");
 			break;
 		case 8:
 			cout << "查詢選課紀錄" << endl;
-			//queryRecord();
+			queryRecord();
 			system("pause");
 			break;
 		case 9:
@@ -231,4 +234,21 @@ void addStudent()
 	ClassName className = static_cast<ClassName>(classNameChoice);
 
 	students.push_back(Student(id, lastName, firstName, gender, birthDate, studentId, department, className));
+}
+
+
+
+void queryCourse() 
+{
+
+}
+
+void queryTeacher()
+{
+
+}
+
+void queryRecord()
+{
+
 }
