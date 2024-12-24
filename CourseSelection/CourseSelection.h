@@ -8,3 +8,6 @@ void listTeachers();
 void listRecords();
 void queryStudent();
 void addStudent();
+void queryCourse();
+void queryTeacher();
+void queryRecord();
